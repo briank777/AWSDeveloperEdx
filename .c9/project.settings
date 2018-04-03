@@ -26,9 +26,13 @@
             "@inited": "true",
             "json()": {
                 "Python3RunConfiguration": {
-                    "command": "exercise-rekognition/FlaskApp/application.py",
+                    "command": "exercise-rds/FlaskApp/application.py",
                     "debug": false,
                     "env": {
+                        "DATABASE_DB_NAME": "Photos",
+                        "DATABASE_HOST": "edx-photos-db.cuhre1lsqdyf.us-west-2.rds.amazonaws.com",
+                        "DATABASE_PASSWORD": "BlackStar32!",
+                        "DATABASE_USER": "web_user",
                         "FLASK_SECRET": "kdiLKGowlkd0950ladifh",
                         "PHOTOS_BUCKET": "edx-course-develop-on-aws"
                     },
