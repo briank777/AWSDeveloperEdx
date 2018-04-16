@@ -1,5 +1,5 @@
 #!/bin/bash -ex
-bucket=BUCKET_NAME
+bucket=edx-course-develop-on-aws-bucket2
 
 # install python3.6 and dev tools
 yum -y install python36
